@@ -8,6 +8,7 @@ function Process() {
         answer = RNumber + " give me lower number"
     } else {
         answer = RNumber + " yeep, it's right"
+        document.getElementById("yourNumber").disabled = true;
     }
     document.getElementById("result").innerText = answer
 }
